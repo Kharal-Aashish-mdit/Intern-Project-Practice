@@ -46,6 +46,11 @@ function RegisterForm() {
       required
       {...form.getInputProps("userName")} />
 
+      <TextInput 
+      label="Contact" 
+      required
+      {...form.getInputProps("contact")} />
+
 
       <PasswordInput 
       label="Password" 
